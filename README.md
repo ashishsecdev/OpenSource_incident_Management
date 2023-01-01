@@ -3,12 +3,11 @@
 ### Open Source Incident Ticket System
 
 
-Over the years, I have spent significant portion of my time to assisting startups and enterprises in building their security capabilities and most common problems 
-that I have encounter is budget allocation and resources(Man power). 
+Over the years, I have spent significant portion of my time assisting startups and enterprises in building their security capabilities and some of the most common problems that I have noticed are around budget allocation and not enough team members to support. 
 
-Like some companies are literally using Google Sheets or free tier Jira to track tickets but I don't find it very good approach.
+Like some companies are literally using Google Sheets or free tier Jira to track the IT tickets but I don't find it very good approach.
 
-So, I thought of creating a small open source utility that can help smaller and lean teams in managing the tickets effectively. 
+So, I thought of creating a small open source utility that can help smaller and leaner teams in managing the tickets effectively. 
 
 ![ops-in-ticketing-system](https://user-images.githubusercontent.com/49029528/210173927-e5dd6790-102e-4963-aa3c-764d6fcfffc2.png)
 
