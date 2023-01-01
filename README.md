@@ -26,6 +26,7 @@ I would greatly appreciate any contributions in the development of this open sou
 
 1. Frontend with Dashboard and intial functionality to create, update, search and delete incidents functionality.
 2. Option to add user authetication on the frontend page.
+3. Email notifications and RTM integration.
 
 Youtube Demo: https://www.youtube.com/watch?v=UDNcNf01ZIg
 
