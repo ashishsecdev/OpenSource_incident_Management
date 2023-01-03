@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Create New Incident</title>
+      <link rel="stylesheet" href="styles.css">
+    <script src="WebSocket-Create-incidents.js"></script>
+  </head>
+  <body style="background-color:#6e86d9;text-align:center">
+  <body>
+  <img src="OPSIN.png" alt="OPS-IN" width="500" height="175">
+    <form action="http://127.0.0.1:8000/incidents" method="post">
+      <h1>Create Incident</h1><br>
+      <label for="title"><b>Short Description</label>
+      <input type="text" id="title" name="title">
+      <label for="category"><b>Category</label>
+      <input type="text" id="category" name="category">
+      <label for="description"><b>Description</label>
+      <textarea id="description" name="description"></textarea>
+      <input type="submit" value="Submit">
+     </form>
+</html>
+
