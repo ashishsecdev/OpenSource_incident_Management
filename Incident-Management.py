@@ -22,13 +22,17 @@ class Incident(db.Model): ##Table Declaration & Schema - You can update more col
     assignee = db.Column(db.String(50), nullable=True)
     ref = db.Column(db.String(50), nullable=False)
 
+ref="www.Dummy_Incident.com/INC000"+ref_func() # TO get variable value to return the ticket number.
+
 @app.route('/incidents', methods=['POST']) # Check methods.
 def create_incident():
-    data = request.get_json()
-    new_incident = Incident(title=data['title'], category=data['category'], description=data['description'], status='Open', ref="www.Dummy_Incident.com/INC000"+ref_func())
+    #data = request.get_json() # Rendering data from HTMl doesnt require JSON, try TINKER for GUI that works. Error for {'Content-Type': 'application/json'}.
+    data = request.form
+    new_incident = Incident(title=data['title'], category=data['category'], description=data['description'], status='Open', ref=ref)
     db.session.add(new_incident)
     db.session.commit()
-    return 'Incident created', 201
+    return ref.rsplit("/"), 201 # Gives Ticket portal and ticket number for reference
+    #return 'Incident created', 201
 
 @app.route('/incidents/<int:incident_id>', methods=['PUT'])
 def update_incident(incident_id):
