@@ -1,0 +1,39 @@
+      /* Add some basic styling to the form */
+      form {
+        width: 500px;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      /* Style the labels and inputs */
+      input {
+        display: block;
+        width: 100%;
+        height: 50px;
+        margin: 15px 0;
+      }
+
+      /* Style the labels and inputs */
+      label{
+        display: block;
+        width: 100%;
+
+      }
+
+      /* Style the textarea */
+      textarea {
+        width: 100%;
+        height: 150px;
+        margin: 15px 0;
+      }
+
+      /* Style the submit button */
+      input[type="submit"] {
+        width: 75px;
+        height: 30px;
+        background-color: #d1a400;
+        color: white;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+      }
