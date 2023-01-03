@@ -2,6 +2,7 @@
 
 ### Open Source Incident Ticket System
 
+![OPSIN](https://user-images.githubusercontent.com/49029528/210382588-7a94b510-613a-4f34-b34f-0dfdb464a8f3.png)
 
 Over the years, I have spent significant portion of my time assisting startups and enterprises in building their security capabilities and some of the most common problems that I have noticed are around budget allocation and not enough team members to support. 
 
